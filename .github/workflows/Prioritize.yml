@@ -16,7 +16,7 @@ jobs:
       with:
           ref: 'v8.1.0'
           distribution: 'zulu'
-          java-version: 15
+          java-version: 11
           architecture: x64
     
     - name: Cache local Maven repository
